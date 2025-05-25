@@ -5,7 +5,7 @@ This project is a simple Node.js app that connects to MongoDB and works with JSO
 
 We cloned it from a public repo for demo purpose.
 
-Used a docker compose.yaml file to create two containers: mongo & mongo-express, all on the same Docker network.
+Used a docker compose.yaml file to create two containers: mongo & mongo-express, all on the same Docker network. Also, connected with local host's portsfor communication.
 
 Run docker compose up -d to start everything and make sure the containers run in the background.
 
