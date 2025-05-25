@@ -1,10 +1,12 @@
 # docker-testapp
 
 
-This project is a simple Node.js application that connects to a MongoDB database. It processes data stored in JSON format and uses JavaScript for backend logic.
+This project is a simple Node.js app that connects to MongoDB and works with JSON data using JavaScript backend logic.
 
-The Node.js app is cloned from a public repository for demonstration purposes.
+We cloned it from a public repo for demo purpose.
 
-For the database connection, two Docker containers (Mongo and Mongo-express) are created on the same Docker network, allowing them to communicate locally.
+Used a docker compose.yaml file to create two containers: mongo & mongo-express, all on the same Docker network.
 
-After setting up the containers, I accessed the MongoDB database, made some changes, and verified that the application works as expected.
+Run docker compose up -d to start everything and make sure the containers run in the background.
+
+After that, we accessed mongo-express UI, made some changes in the database, and tested the app — all worked as expected.
